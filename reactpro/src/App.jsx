@@ -2,6 +2,7 @@ import Conditional from "./components/Conditional";
 import Fruits from "./components/Fruits";
 import Hello from "./components/Hello";
 import Message from "./components/mESSAGE.JSX";
+import Counter from "./components/Counter";
 
 function App() {
   const seatNumbers = [1, 4, 7];
@@ -14,7 +15,7 @@ function App() {
         emoji="😊"
       /> */}
 
-      <Message />
+      <Counter />
     </div>
   );
 }
